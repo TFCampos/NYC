@@ -1,0 +1,1 @@
+pg_dump -U postgres -d NYC_Taxi_Trip -C -b -f E:\NYC_Taxi_Trip.dat

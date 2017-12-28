@@ -1,0 +1,47 @@
+INSERT INTO public."Trip_Data_Fare_Jan"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+(select * from public."Trip_Data_Fare" where pickup_datetime between '2013-01-01 00:00:00' and '2013-01-31 23:59:59');
+
+INSERT INTO public."Trip_Data_Fare_Fev"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-02-01 00:00:00' and '2013-02-28 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Mar"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-03-01 00:00:00' and '2013-03-31 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Abr"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-04-01 00:00:00' and '2013-04-30 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Mai"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-05-01 00:00:00' and '2013-05-31 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Jun"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-06-01 00:00:00' and '2013-06-30 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Jul"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-07-01 00:00:00' and '2013-07-31 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Ago"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-08-01 00:00:00' and '2013-08-31 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Set"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-09-01 00:00:00' and '2013-09-30 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Out"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-10-01 00:00:00' and '2013-10-31 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Nov"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-11-01 00:00:00' and '2013-11-30 23:59:59';
+
+INSERT INTO public."Trip_Data_Fare_Dez"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" where pickup_datetime between '2013-12-01 00:00:00' and '2013-12-31 23:59:59';

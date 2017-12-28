@@ -1,0 +1,25 @@
+INSERT INTO public."Trip_Fare"(
+	medallion, hack_license, vendor_id, pickup_datetime, payment_type,fare_amount,surcharge,mta_tax,tip_amount,tolls_amount,total_amount)
+                           (select * from public."Trip_Fare_1" 
+                           union 
+                           select * from public."Trip_Fare_2" 
+                           union 
+                           select * from public."Trip_Fare_3" 
+                           union 
+                           select * from public."Trip_Fare_4"  
+                           union 
+                           select * from public."Trip_Fare_5" 
+                           union
+                           select * from public."Trip_Fare_6"  
+                           union 
+                           select * from public."Trip_Fare_7" 
+                           union 
+                           select * from public."Trip_Fare_8"
+                           union 
+                           select * from public."Trip_Fare_9"
+                           union 
+                           select * from public."Trip_Fare_10"
+                           union 
+                           select * from public."Trip_Fare_11" 
+                           union 
+                           select * from public."Trip_Fare_12");

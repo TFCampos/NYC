@@ -1,0 +1,147 @@
+###############################################################################
+#Criando tabelas "Filhas" da tabela public."Trip_Data_Fare", uma para cada mês#
+###############################################################################
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Jan"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Jan"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Fev"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Fev"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Mar"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Mar"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Abr"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Abr"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Mai"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Mai"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Jun"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Jun"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Jul"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Jul"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Ago"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Ago"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Set"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Set"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Out"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Out"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Nov"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Nov"
+    OWNER to postgres;
+
+
+
+CREATE TABLE public."Trip_Data_Fare_Dez"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Dez"
+    OWNER to postgres;

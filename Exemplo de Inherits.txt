@@ -1,0 +1,9 @@
+CREATE TABLE public."Trip_Data_Fare_Jan"()
+INHERITS (public."Trip_Data_Fare")
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Jan"
+    OWNER to postgres;

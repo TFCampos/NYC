@@ -1,0 +1,25 @@
+INSERT INTO public."Trip_Data"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude)
+                           (select * from public."Trip_Data_1" 
+                           union 
+                           select * from public."Trip_Data_2" 
+                           union 
+                           select * from public."Trip_Data_3" 
+                           union 
+                           select * from public."Trip_Data_4"  
+                           union 
+                           select * from public."Trip_Data_5" 
+                           union
+                           select * from public."Trip_Data_6"  
+                           union 
+                           select * from public."Trip_Data_7" 
+                           union 
+                           select * from public."Trip_Data_8"
+                           union 
+                           select * from public."Trip_Data_9"
+                           union 
+                           select * from public."Trip_Data_10"
+                           union 
+                           select * from public."Trip_Data_11" 
+                           union 
+                           select * from public."Trip_Data_12");

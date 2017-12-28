@@ -1,0 +1,3 @@
+ALTER TABLE public."Trip_Data_Fare_Amostra" 
+	ALTER COLUMN pickup_datetime TYPE character(19),
+	ALTER COLUMN dropoff_datetime TYPE character(19);

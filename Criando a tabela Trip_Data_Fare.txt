@@ -1,0 +1,33 @@
+INSERT INTO public."Trip_Data_Fare"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+	SELECT 
+public."Trip_Data".medallion,
+public."Trip_Data".hack_license,
+public."Trip_Data".vendor_id,
+public."Trip_Data".rate_code,
+public."Trip_Data".store_and_fwd_flag,
+public."Trip_Data".pickup_datetime,
+public."Trip_Data".dropoff_datetime,
+public."Trip_Data".passenger_count,
+public."Trip_Data".trip_time_in_secs,
+public."Trip_Data".trip_distance,
+public."Trip_Data".pickup_longitude,
+public."Trip_Data".pickup_latitude,
+public."Trip_Data".dropoff_longitude,
+public."Trip_Data".dropoff_latitude,
+public."Trip_Fare".payment_type,
+public."Trip_Fare".fare_amount,
+public."Trip_Fare".surcharge,
+public."Trip_Fare".mta_tax,
+public."Trip_Fare".tip_amount,
+public."Trip_Fare".tolls_amount,
+public."Trip_Fare".total_amount
+from
+public."Trip_Data" 
+left join  
+public."Trip_Fare"
+on 
+public."Trip_Data".medallion=public."Trip_Fare".medallion and
+public."Trip_Data".hack_license=public."Trip_Fare".hack_license and 
+public."Trip_Data".vendor_id=public."Trip_Fare".vendor_id and 
+public."Trip_Data".pickup_datetime=public."Trip_Fare".pickup_datetime ;

@@ -1,0 +1,416 @@
+CREATE TABLE public."Trip_Data_Fare"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_1"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_1"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_2"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_2"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_3"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_3"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_4"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_4"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_5"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_5"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_6"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_6"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_7"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_7"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_8"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_8"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_9"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_9"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_10"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_10"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_11"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_11"
+    OWNER to postgres;
+
+CREATE TABLE public."Trip_Data_Fare_12"
+(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE public."Trip_Data_Fare_12"
+    OWNER to postgres;
+

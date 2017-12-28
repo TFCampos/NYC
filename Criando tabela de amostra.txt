@@ -1,0 +1,62 @@
+DROP TABLE public."Trip_Data_Fare_Amostra";
+CREATE TABLE public."Trip_Data_Fare_Amostra"(
+    medallion character(32) COLLATE pg_catalog."default" NULL,
+    hack_license character(32) COLLATE pg_catalog."default" NULL,
+    vendor_id character(3) NULL,
+    rate_code integer NULL,
+    store_and_fwd_flag character(1) COLLATE pg_catalog."default" NULL,
+    pickup_datetime timestamp(6) without time zone NULL,
+    dropoff_datetime timestamp(6) without time zone  NULL,
+    passenger_count integer  NULL,
+    trip_time_in_secs integer  NULL,
+    trip_distance real  NULL,
+    pickup_longitude real  NULL,
+    pickup_latitude real  NULL,
+    dropoff_longitude real NULL,
+    dropoff_latitude real NULL,
+    payment_type character(3) NULL,
+    fare_amount real NULL,
+    surcharge real NULL,
+    mta_tax real NULL,
+    tip_amount real NULL,
+    tolls_amount real NULL,
+    total_amount real NULL
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE "T2_TableSpace";
+
+ALTER TABLE "Trip_Data_Fare_Amostra"
+    OWNER to postgres;
+
+INSERT INTO public."Trip_Data_Fare_Amostra"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+(
+ select * from public."Trip_Data_Fare_Jan" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Fev" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Mar" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Abr" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Mai" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Jun" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Jul" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Ago" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Set" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Out" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Nov" TABLESAMPLE SYSTEM (1)
+  union
+ select * from public."Trip_Data_Fare_Dez" TABLESAMPLE SYSTEM (1)
+);
+COPY public."Trip_Data_Fare_Amostra" TO 'D:\Disco C\Documentos\r\Aprendendo MicrosoftML\Amostra.CSV' CSV DELIMITER '|' HEADER;
+
+\q

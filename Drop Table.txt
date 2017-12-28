@@ -1,0 +1,12 @@
+DROP TABLE public."Trip_Data_Fare_Jan",
+ public."Trip_Data_Fare_Fev",
+ public."Trip_Data_Fare_Mar",
+ public."Trip_Data_Fare_Abr",
+ public."Trip_Data_Fare_Mai",
+ public."Trip_Data_Fare_Jun",
+ public."Trip_Data_Fare_Jul",
+ public."Trip_Data_Fare_Ago",
+ public."Trip_Data_Fare_Set",
+ public."Trip_Data_Fare_Out",
+ public."Trip_Data_Fare_Nov",
+ public."Trip_Data_Fare_Dez";

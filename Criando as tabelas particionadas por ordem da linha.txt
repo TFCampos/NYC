@@ -1,0 +1,47 @@
+INSERT INTO public."Trip_Data_Fare_1"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+(select * from public."Trip_Data_Fare" limit 14432048);
+
+INSERT INTO public."Trip_Data_Fare_2"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 14432048;
+
+INSERT INTO public."Trip_Data_Fare_3"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 28864096;
+
+INSERT INTO public."Trip_Data_Fare_4"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 43296144;
+
+INSERT INTO public."Trip_Data_Fare_5"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 57728192;
+
+INSERT INTO public."Trip_Data_Fare_6"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 72160240;
+
+INSERT INTO public."Trip_Data_Fare_7"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 86592288;
+
+INSERT INTO public."Trip_Data_Fare_8"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 101024336;
+
+INSERT INTO public."Trip_Data_Fare_9"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 115456384;
+
+INSERT INTO public."Trip_Data_Fare_10"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 129888432;
+
+INSERT INTO public."Trip_Data_Fare_11"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" limit 14432048 offset 144320480;
+
+INSERT INTO public."Trip_Data_Fare_12"(
+	medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount)
+select * from public."Trip_Data_Fare" offset 158752528;

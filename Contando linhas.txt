@@ -1,0 +1,11 @@
+#Comando básico
+#select count(*) from schem."Table_Name";
+
+#Exemplo com banco de dados de corridas de taxi
+select count(*) from public."Trip_Data_Fare";
+
+#exemplo de contagem entre datas
+select count(*) from public."Trip_Data_Fare" where pickup_datetime between '2013-01-01 00:00:00' and '2013-01-31 23:59:59';
+
+#Maximo e e minimo de datas em uma determinado número de linhas
+select min(pickup_datetime), max(pickup_datetime) from public."Trip_Data_Fare" limit 14776615;
