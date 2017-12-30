@@ -1,5 +1,5 @@
 # NYC
-Staff to make the analysis of the NYC database
+Stuff to make the analysis of the NYC database
 
 This repository will stor my code and data to do the analysis of the dataset. 
 
