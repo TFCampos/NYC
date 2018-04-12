@@ -1,5 +1,5 @@
 #Usuario: postgres
-#Senha: iron6669 
+#Senha: 
 
 cd D:\Disco C\Programas\PostgreSQL\9.6\bin
 psql -h localhost -U postgres -d NYC_Taxi_Trip
